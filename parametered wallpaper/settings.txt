@@ -1,0 +1,780 @@
+You will need to fill out this file for hand in. 
+The bellow is just an example, feel free to disregard this documents contents.
+
+
+Your final settings.txt will look something like this when you are finished:
+
+///////////////////////////////////////////////////////
+
+Wallpaper 1:
+
+//hat parameters
+let hatX = 100//point x of hat
+let hatY = 100// point y of hat
+let hatWidth = 100//hat width
+let hatHeight = hatWidth - 10// hat length
+
+//face shape parameters
+let faceX = 70//point x of face
+let faceY = 65// point y of face
+let faceW = 58//face width
+let faceH = 60// face length
+let roundness_radius = 20// medthod research from P5.js reference 
+let roundness = true;
+
+
+// ears parameters
+let ear_X = 100//point x of ears
+let ear_Y = 100// point y of ears
+let ear_width = 20// ears width
+let ear_height = 15// ears length
+let ear_S = 30// space between ears
+
+// eyes parameters
+let eyes_X = 100//point x of eyes
+let eyes_Y = 96//point y of eyes
+let eyes_W = 6// eyes width
+let eyes_H = 10// eyes lenghth
+let eyes_S = 8 // free space between each eyes
+
+
+//cheek parameters
+let cheekX = 100//point x of cheek
+let cheekY = 103// point y of cheek
+let cheekW = 17//cheek width
+let cheekH = 10// cheek lenghth
+let cheekS = 15// free space between each cheek
+
+//seedpod parameters
+let seedpodX = 30;//point x of seedpod
+let seedpodY = 80;// point y of seedpod
+let seedpodW = 50// more less number, the bigger the seedpod
+let seedpodH = 20// the less, the smaller
+let seedpodThickness = 20
+
+//lotus parameters
+let lotus_size = 20// the size of lotus
+let lotus_angle = -90// angle count from the center
+let lotus_Y = 165//point y of lotus petal
+let lotus_X = 100//point x of lotus petal
+let lotus_thickness = 2.5// petal width
+let lotus_strokeWeight = 5// line width
+
+
+//arc angle parameters
+let arc_X = 100// point x of an arc
+let arc_Y = 255// point y of an arc
+let arc_W = 120// arc width
+let arc_H = 200// arc length
+let start_Angle = 0//point angle to start
+let stop_Angle = 180// point angle to end
+
+
+
+
+
+function setup_wallpaper(pWallpaper){
+  //pWallpaper.output_mode (DEVELOP_GLYPH)
+  //pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.out_mode (GRID_WALLPAPER) 
+  pWallpaper.resolution(NINE_PORTRAIT)
+  pWallpaper.show_guide (false);// set this to false when you're already to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 220;
+  pWallpaper. grid_settings.row_offset = 50;
+}
+
+function wallpaper_background(){
+  angleMode(DEGREES)
+
+  background(255, 214, 89);//mustard yellow
+
+}
+
+///////////////////////////////////////////////////////
+
+Wallpaper 2:
+
+//your parameters variables go here!
+//hat parameters
+let hatX = 100 // x point of hat
+let hatY = 100// y point of hat
+let hatWidth = 200// the hat width
+let hatHeight = hatWidth - 10// the hat length
+
+//face shape parameters
+let faceX = 50 // x point of face
+let faceY = 66// y point of face
+let faceW = 100//face width
+let faceH = 90// face lenghth
+let roundness_radius = 20
+let roundness = true; // if statement of face shape 
+
+// ears parameters
+let ear_X = 100// x point for ear
+let ear_Y = 100// y point for ear
+let ear_width = 30//ear width
+let ear_height = 30// ear lenghth
+let ear_S = 30// free space between each ear
+
+// eyes parameters
+let eyes_X = 100// x point for eyes
+let eyes_Y = 96// y point for eyes
+let eyes_W = 5///eyes width
+let eyes_H = 8// eyes lenghths
+let eyes_S = 5 // free space between each eye
+
+
+//cheek parameters
+cheekX = 100// point x for cheek
+cheekY = 103// point y for cheek
+cheekW = 40//  cheek width
+cheekH = 20// cheek lenghth
+cheekS = 30// free space between each cheek
+
+//lotus parameters
+let lotus_size = 20// the size of lotus
+let lotus_angle = -90// angle count from the cen
+let lotus_Y = 155//point y for lotus petal
+let lotus_X = 100// point x for lotus petal
+let lotus_thickness = 2.5// petal width
+let lotus_strokeWeight = 9// line width
+
+//seedpod parameters
+let seedpodX = 30; //point x of lotus seed pod
+let seedpodY = 120;// point y of lotus seed pod
+let seedpodW = 50// more less number, the bigger the seedpod
+let seedpodH = 30// the less, the smaller
+let seedpodThickness = 40// 
+
+// arc angle parameters
+let arc_X = 100// point x of an arc
+let arc_Y = 250// point y of an arc
+let arc_W = 100// arc width
+let arc_H = 200// arc length
+let start_Angle = 0//point angle to start
+let stop_Angle = 180// point angle to end
+
+
+function setup_wallpaper(pWallpaper){
+  //pWallpaper.output_mode (DEVELOP_GLYPH)
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  //pWallpaper.out_mode (GRID_WALLPAPER)
+  pWallpaper.resolution(NINE_PORTRAIT)
+  pWallpaper.show_guide (false);// set this to false when you're already to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 220;
+  pWallpaper. grid_settings.row_offset = 50;
+}
+
+function wallpaper_background(){
+  angleMode(DEGREES)
+
+  background(255, 214, 89);//mustard yellow
+
+}
+
+///////////////////////////////////////////////////////
+
+  Wallpaper 3
+//your parameters variables go here!
+//hat parameters
+let hatX = 100 // x point of hat
+let hatY = 100// y point of hat
+let hatWidth = 90// the hat width
+let hatHeight = hatWidth - 10// the hat length
+
+//face shape parameters
+let faceX = 67 // x point of face
+let faceY = 67// y point of face
+let faceW = 65//face width
+let faceH = 50// face lenghth
+let roundness_radius = 20
+let roundness = true; // if statement of face shape 
+
+// ears parameters
+let ear_X = 100// x point for ear
+let ear_Y = 100// y point for ear
+let ear_width = 20//ear width
+let ear_height = 15// ear lenghth
+let ear_S = 30// free space between each ear
+
+// eyes parameters
+let eyes_X = 100// x point for eyes
+let eyes_Y = 96// y point for eyes
+let eyes_W = 5///eyes width
+let eyes_H = 8// eyes lenghths
+let eyes_S = 5 // free space between each eye
+
+
+//cheek parameters
+cheekX = 100// point x for cheek
+cheekY = 103// point y for cheek
+cheekW = 10//  cheek width
+cheekH = 5// cheek lenghth
+cheekS = 30// free space between each cheek
+
+//lotus petalparameters
+let lotus_size = 50// the size of lotus
+let lotus_angle = -90// angle count from the cen
+let lotus_Y = 180//point y for lotus petal
+let lotus_X = 100// point x for lotus petal
+let lotus_thickness = 1.5// petal width
+let lotus_strokeWeight = 4// line width
+
+//lotus seedpod parameters
+let seedpodX = 20; //point x of lotus seed pod
+let seedpodY = 120;// point y of lotus seed pod
+let seedpodW = 50// more less number, the bigger the seedpod
+let seedpodH = 30// the less, the smaller
+let seedpodThickness = 40// 
+
+// arc angle parameters
+let arc_X = 100// point x of an arc
+let arc_Y = 250// point y of an arc
+let arc_W = 10// arc width
+let arc_H =10// arc length
+let start_Angle = 0//point angle to start
+let stop_Angle = 180// point angle to end
+
+
+function setup_wallpaper(pWallpaper){
+  //pWallpaper.output_mode (DEVELOP_GLYPH)
+  //pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.output_mode (GRID_WALLPAPER)
+  pWallpaper.resolution(NINE_PORTRAIT)
+  pWallpaper.show_guide (false);// set this to false when you're already to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 220;
+  pWallpaper. grid_settings.row_offset = 50;
+}
+
+function wallpaper_background(){
+  angleMode(DEGREES)
+
+  background(255, 214, 89);//mustard yellow
+
+}
+
+///////////////////////////////////////////////////////
+ Wallaper 4
+
+ //hat parameters
+let hatX = 100// x point of hat
+let hatY = 97// y point of hat
+let hatWidth = 50// the hat width
+let hatHeight = hatWidth + 0// the hat length
+
+//face parameters
+let faceX = 85// x point of face
+let faceY = 59// y point of face
+let faceW = 30//face width
+let faceH = 40// face lenghth
+let roundness_radius = 50
+let roundness = true; // if statement of face shape 
+
+
+//ear parameters
+let ear_X = 100// x point for ear
+let ear_Y = 80// y point for ear
+let ear_width = 10//ear lenghth
+let ear_height = 10// ear lenghth
+let ear_S = 20// free space between each ear
+
+
+//eyes parameters
+let eyes_X = 100// x point for eyes
+let eyes_Y = 85// y point for eyes
+let eyes_W = 5//eyes width
+let eyes_H = 8// eyes lenghth
+let eyes_S = 5// free space between each eye
+
+
+//cheek parameters
+cheekX = 100// point x for cheek
+cheekY = 89// point y for cheek
+cheekW = 2//  cheek width
+cheekH = 10// cheek lenghth
+cheekS = 5// free space between each cheek
+
+//lotus parameters
+let lotus_size = 30// the size of lotus
+let lotus_angle = -80// angle count from the cen
+let lotus_Y = 40//point y for lotus petal
+let lotus_X = -10// point x for lotus petal
+let lotus_thickness = 1// petal width
+let lotus_strokeWeight = 6// line width
+
+//seedpod parameters
+let seedpodX = -10//point x of lotus seed pod
+let seedpodY = 80// point y of lotus seed pod
+let seedpodW = 80// more less number, the bigger the seedpod
+let seedpodH = 20// the less, the smaller
+let seedpodThickness = 20
+
+ 
+//arc angle parameters
+let arc_X = 100// point x of an arc
+let arc_Y = 250// point y of an arc
+let arc_W = 80// arc width
+let arc_H = 300// arc length
+let start_Angle = 0//point angle to start
+let stop_Angle = 180// point angle to end
+
+
+function setup_wallpaper(pWallpaper){
+  //pWallpaper.output_mode (DEVELOP_GLYPH);
+  //pWallpaper.output_mode(GLIDE_WALLPAPER)
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT)
+  pWallpaper.show_guide (false);// set this to false when you're already to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 220;
+  pWallpaper. grid_settings.row_offset = 50;
+}
+
+function wallpaper_background(){
+  angleMode(DEGREES)
+
+  background(255, 214, 89);//mustard yellow
+}
+
+
+///////////////////////////////////////////////////////
+
+Wallpaper 5:
+
+//hat parameters
+let hatX = 100// x point of hat
+let hatY = 97// y point of hat
+let hatWidth = 80// the hat width
+let hatHeight = hatWidth + 30// the hat length
+
+//face parameters
+let faceX = 85// x point of face
+let faceY = 59// y point of face
+let faceW = 30//face width
+let faceH = 40// face lenghth
+let roundness_radius = 80
+let roundness = true; // if statement of face shape 
+
+
+//ear parameters
+let ear_X = 100// x point for ear
+let ear_Y = 80// y point for ear
+let ear_width = 10//ear lenghth
+let ear_height = 10// ear lenghth
+let ear_S = 20// free space between each ear
+
+
+//eyes parameters
+let eyes_X = 100// x point for eyes
+let eyes_Y = 85// y point for eyes
+let eyes_W = 5//eyes width
+let eyes_H = 8// eyes lenghth
+let eyes_S = 5// free space between each eye
+
+
+//cheek parameters
+cheekX = 100// point x for cheek
+cheekY = 89// point y for cheek
+cheekW = 2//  cheek width
+cheekH = 10// cheek lenghth
+cheekS = 5// free space between each cheek
+
+//seedpod parameters
+let seedpodX = 10//point x of lotus seed pod
+let seedpodY = 80// point y of lotus seed pod
+let seedpodW = 80// more less number, the bigger the seedpod
+let seedpodH = 20// the less, the smaller
+let seedpodThickness = 20
+
+//lotus parameters
+let lotus_size = 20// the size of lotus
+let lotus_angle = -90// angle count from the cen
+let lotus_Y = 170//point y for lotus petal
+let lotus_X = 15// point x for lotus petal
+let lotus_thickness = 2// petal width
+let lotus_strokeWeight = 6// line width
+
+
+//arc angle parameters
+let arc_X = 100// point x of an arc
+let arc_Y = 250// point y of an arc
+let arc_W = 200// arc width
+let arc_H = 200// arc length
+let start_Angle = 0//point angle to start
+let stop_Angle = 180// point angle to end
+
+
+function setup_wallpaper(pWallpaper){
+  //pWallpaper.output_mode (DEVELOP_GLYPH);
+  //pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT)
+  pWallpaper.show_guide (false);// set this to false when you're already to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 220;
+  pWallpaper. grid_settings.row_offset = 50;
+}
+
+function wallpaper_background(){
+  angleMode(DEGREES)
+
+  background(255, 214, 89);//mustard yellow
+}
+
+
+///////////////////////////////////////////////////////
+
+Wallpaper 6 
+
+//hat parameters
+let hatX = 100// x point of hat
+let hatY = 97// y point of hat
+let hatWidth = 80// the hat width
+let hatHeight = hatWidth + 30// the hat length
+
+//face shape parameters
+let faceX = 85// x point of face
+let faceY = 59// y point of face
+let faceW = 30//face width
+let faceH = 40// face lenghth
+let roundness_radius = 80
+let roundness = true;
+
+// ears parameters
+let ear_X = 100// x point for ear
+let ear_Y = 80// y point for ear
+let ear_width = 10//ear width
+let ear_height = 10// ear lenghth
+let ear_S = 20// free space between each ear
+
+// eyes parameters
+let eyes_X = 100// x point for eyes
+let eyes_Y = 85// y point for eyes
+let eyes_W = 5//eyes width
+let eyes_H = 8// eyes lenghths
+let eyes_S = 5 // free space between each eye
+
+//cheek parameters
+let cheekX = 100// point x for cheek
+let cheekY = 89// point y for cheek
+let cheekW = 2//  cheek width
+let cheekH = 10// cheek lenghth
+let cheekS = 5// free space between each cheek
+
+//seedpod parameters
+let seedpodX = 0;//point x of lotus seed pod
+let seedpodY = 50;// point y of lotus seed pod
+let seedpodW = 20// more less number, the bigger the seedpod
+let seedpodH = 50// the less, the smaller
+let seedpodThickness = 20
+
+//lotus parameters
+let lotus_size = 20// the size of lotus
+let lotus_angle = -90// angle count from the cen
+let lotus_Y = 170//point y for lotus petal
+let lotus_X = 15// point x for lotus petal
+let lotus_thickness = 5// petal width
+let lotus_strokeWeight = 6
+
+
+//arc angle parameters
+let arc_X = 100// point x of an arc
+let arc_Y = 250// point y of an arc
+let arc_W = 100// arc width
+let arc_H = 200// arc length
+let start_Angle = 0//point angle to start
+let stop_Angle = 180// point angle to end
+
+
+
+
+
+function setup_wallpaper(pWallpaper){
+  //pWallpaper.output_mode (DEVELOP_GLYPH);
+  //pWallpaper.output_mode(GLIDE_WALLPAPER)
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT)
+  pWallpaper.show_guide (false);// set this to false when you're already to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 220;
+  pWallpaper. grid_settings.row_offset = 50;
+}
+
+function wallpaper_background(){
+  angleMode(DEGREES)
+
+  background(255, 214, 89);//mustard yellow
+
+}
+
+///////////////////////////////////////////////////////
+
+Wallpaper 7 
+//hat parameters
+let hatX = 100// x point of hat
+let hatY = 97// y point of hat
+let hatWidth = 200// the hat width
+let hatHeight = hatWidth - 20// the hat length
+
+//face parameters
+let faceX = 85// x point of face
+let faceY = 59// y point of face
+let faceW = 30//face width
+let faceH = 40// face lenghth
+let roundness_radius = 80
+let roundness = true; // if statement of face shape 
+
+//ear parameters
+let ear_X = 100// x point for ear
+let ear_Y = 80// y point for ear
+let ear_width = 10//ear width
+let ear_height = 10// ear lenghth
+let ear_S = 15// free space between each ear
+
+//eyes parameters
+let eyes_X = 100// x point for eyes
+let eyes_Y = 85// y point for eyes
+let eyes_W = 6///eyes width
+let eyes_H = 12// eyes lenghths
+let eyes_S = 5// free space between each eye
+
+
+//cheek parameters
+let cheekX = 100// point x for cheek
+let cheekY = 89// point y for cheek
+let cheekW = 2//  cheek width
+let cheekH = 10// cheek lenghth
+let cheekS = 5// free space between each cheek
+
+
+//seedpod parameters
+let seedpodX = 0;//point x of lotus seed pod
+let seedpodY = 50;0// point y of lotus seed pod
+let seedpodW = 20// more less number, the bigger the seedpod
+let seedpodH = 50// the less, the smaller
+let seedpodThickness = 20
+
+//lotus parameters
+let lotus_size = 30// the size of lotus
+let lotus_angle = -90// angle count from the center
+let lotus_Y = 170//point y for lotus petal
+let lotus_X = 110// point x for lotus petal
+let lotus_thickness = 1// petal width
+let lotus_strokeWeight = 4// line width
+
+
+// arc angle parameters
+let arc_X = 100// point x of an arc
+let arc_Y = 250// y point of an arc
+let arc_W = 50// arc width
+let arc_H = 300// arc length
+let start_Angle = 0//point angle to start
+let stop_Angle = 180// point angle to end
+
+
+function setup_wallpaper(pWallpaper){
+  //pWallpaper.output_mode (DEVELOP_GLYPH);
+  //pWallpaper.output_mode(GLIDE_WALLPAPER)
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT)
+  pWallpaper.show_guide (false);// set this to false when you're already to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 220;
+  pWallpaper. grid_settings.row_offset = 50;
+}
+
+function wallpaper_background(){
+  angleMode(DEGREES)
+
+  background(255, 214, 89);//mustard yellow
+
+}
+
+///////////////////////////////////////////////////////
+
+Wallpaper 8
+
+//hat parameters
+let hatX = 100//point x of hat
+let hatY = 97// point y of hat
+let hatWidth = 120//hat width
+let hatHeight = hatWidth + 5// hat length
+
+//face parameters
+let faceX = 65//point x of face
+let faceY = 59//point y of face
+let faceW = 70//face width
+let faceH = 60// face length
+let roundness_radius = 20// medthod research from P5.js reference 
+let roundness = true;
+
+//ear parameters
+let ear_X = 100//point x of ears
+let ear_Y = 80//point x of ears
+let ear_width = 10// ears width
+let ear_height = 10// ears length
+let ear_S = 15// free space between each ear
+
+//eyes parameters
+let eyes_X = 100//point x of eyes
+let eyes_Y = 85//point y of eyes
+let eyes_W = 6// eyes width
+let eyes_H = 12// eyes lenghth
+let eyes_S = 5 // free space between each eye
+
+
+//cheek parameters
+let cheekX = 100//point x of cheek
+let cheekY = 100//point y of cheek
+let cheekW = 40//cheek width
+let cheekH = 20// cheek lenghth
+let cheekS = 30// free space between each cheek
+
+//seedpod parameters
+let seedpodX = 350;//point x of seedpod
+let seedpodY = 300;// point y of seedpod
+let seedpodW = 30// more less number, the bigger the seedpod
+let seedpodH = 20// the less, the smaller
+let seedpodThickness = 90
+
+//lotus parameters
+let lotus_size = 15// the size of lotus
+let lotus_angle = -110// angle count from the center
+let lotus_Y = 225//point y of lotus petal
+let lotus_X = 40//point x of lotus petal
+let lotus_thickness = 0.5// petal width
+let lotus_strokeWeight = 4// line width
+
+
+//arc angle parameters
+let arc_X = 100// point x of an arc
+let arc_Y = 250// y point of an arc
+let arc_W = 0// arc width
+let arc_H = 0// arc length
+let start_Angle = 0//point angle to start
+let stop_Angle = 180// point angle to end
+
+
+
+function setup_wallpaper(pWallpaper){
+  //pWallpaper.output_mode (DEVELOP_GLYPH);
+  //pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT)
+  pWallpaper.show_guide (false);// set this to false when you're already to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 220;
+  pWallpaper. grid_settings.row_offset = 50;
+}
+
+function wallpaper_background(){
+  angleMode(DEGREES)
+
+  background(255, 214, 89);//mustard yellow
+}
+
+//////////////////////////////////////////////////////////
+
+Wallpaper 9
+
+/hat parameters
+let hatX = 100//point x of hat
+let hatY = 97// point y of hat
+let hatWidth = 200//hat width
+let hatHeight = hatWidth -0// hat length
+
+//face shape parameters
+let faceX = 75//point x of face
+let faceY = 59// point y of face
+let faceW = 80//face width
+let faceH = 90// face length
+let roundness_radius = 80// medthod research from P5.js reference 
+let roundness = true;
+
+
+// ears parameters
+let ear_X = 100//point x of ears
+let ear_Y = 80// point y of ears
+let ear_width = 10// ears width
+let ear_height = 10// ears length
+let ear_S = 20// space between ears
+
+//eyes parameters
+let eyes_X = 120//point x of eyes
+let eyes_Y = 115//point y of eyes
+let eyes_W = 5// eyes width
+let eyes_H = 8// eyes lenghth
+let eyes_S = 5 // free space between each eyes
+
+
+//cheek parameters
+let cheekX = 100//point x of cheek
+let cheekY = 89// point y of cheek
+let cheekW = 2//cheek width
+let cheekH = 10// cheek lenghth
+let cheekS = 5// free space between each cheek
+
+//seedpod parameters
+let seedpodX = 0;//point x of seedpod
+let seedpodY = 50;// point y of seedpod
+let seedpodW = 20// more less number, the bigger the seedpod
+let seedpodH = 50// the less, the smaller
+let seedpodThickness = 20
+
+//lotus parameters
+let lotus_size = 20// the size of lotus
+let lotus_angle = -90// angle count from the center
+let lotus_Y = 170//point y of lotus petal
+let lotus_X = 15//point x of lotus petal
+let lotus_thickness = 2// petal width
+let lotus_strokeWeight = 6// line width
+
+
+//arc angle parameters
+let arc_X = 100// point x of an arc
+let arc_Y = 250// y point of an arc
+let arc_W = 100// arc width
+let arc_H = 20// arc length
+let start_Angle = 0//point angle to start
+let stop_Angle = 180// point angle to end
+
+
+
+function setup_wallpaper(pWallpaper){
+  //pWallpaper.output_mode (DEVELOP_GLYPH);
+  //pWallpaper.output_mode(GLIDE_WALLPAPER)
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT)
+  pWallpaper.show_guide (false);// set this to false when you're already to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 220;
+  pWallpaper. grid_settings.row_offset = 50;
+}
+
+function wallpaper_background(){
+  angleMode(DEGREES)
+
+  background(255, 214, 89);//mustard yellow
+
+}
